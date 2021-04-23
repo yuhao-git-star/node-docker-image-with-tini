@@ -1,4 +1,4 @@
-ARG NODE_VERSION=12
+ARG NODE_VERSION=lts
 
 FROM node:${NODE_VERSION}-alpine AS builder
 
