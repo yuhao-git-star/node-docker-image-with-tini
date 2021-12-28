@@ -1,6 +1,6 @@
-ARG NODE_VERSION=lts
+ARG NODE_VERSION=16.13.1
 
-FROM node:${NODE_VERSION}-alpine AS builder
+FROM node:${NODE_VERSION}-alpine3.14 AS builder
 
 # Add Tini
 ENV TINI_VERSION v0.19.0
